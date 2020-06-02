@@ -21,7 +21,7 @@ engine_sp500_at = create_engine('mysql+pymysql://root:123456@localhost:3306/AT_M
 
 
 
-sql_sp500_at = 'select index_v,up_num,down_num,max_up,min_up,min_down,max_down from sp500_AT  ; '
+sql_sp500_at = 'select LastTime,index_v,up_num,down_num,max_up,min_up,min_down,max_down from sp500_AT  ; '
 
 ln = os.getcwd()
 
